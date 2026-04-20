@@ -299,6 +299,37 @@ ul li strong {
     color: #111827;
 }
 
+@media (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 28px 20px;
+        box-shadow: none;
+    }
+
+    .contact {
+        flex-wrap: wrap;
+        white-space: normal;
+        gap: 2px 0;
+    }
+
+    .job-header {
+        flex-direction: column;
+        gap: 2px;
+    }
+
+    .job-period {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .headline {
+        font-size: 15px;
+    }
+}
+
 @media print {
     @page {
         margin: 0;
